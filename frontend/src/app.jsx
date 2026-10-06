@@ -4,12 +4,16 @@ import x from './media/x.png'
 import linkedin from './media/linkedin.png'
 import github from './media/github.png'
 import telegram from './media/telegram.png'
+import background from './media/hero1.png'
+
 
 
 
 function App() {
   return (
+    
     <div className="app">
+      
       <nav className="navbar">
 
         <div className="logo">
@@ -33,7 +37,7 @@ function App() {
         </div>
 
       </nav>
-
+      <main className="hero"></main>
 
     {/*  ILL DO THIS LATER
       <main>

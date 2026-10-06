@@ -105,3 +105,10 @@ p {
   height: 20px;
   object-fit: contain;
 }
+
+.hero {
+  min-height: calc(100vh - 72px);
+  background-image: url('./media/hero1.png');
+  background-size: cover;
+  background-position: center;
+}

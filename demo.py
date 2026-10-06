@@ -1,18 +1,16 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
+from flask_cors import COPS, CORS 
 
-app = Flask(__name__)
-CORS(app)
-
+app = Flask(_ name__) 
+CORS(app) 
 
 @app.route("/api/data")
-def data():
+def get_data():
     return jsonify({
         "status": "online",
         "user": "cupid",
         "projects": ["portfolio", "homelab", "ai-agents"]
     })
 
-
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000)
